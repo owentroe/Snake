@@ -70,7 +70,7 @@ public class GameBoard extends JFrame
    public boolean isOnBoard(CoordinatePair coord)
     {
         boolean b = true;
-       
+
          //all conditions must be true
         b &= !(coord.getX() < 0);
         b &= !(coord.getX() > this.getWidth());
