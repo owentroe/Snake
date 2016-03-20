@@ -9,8 +9,5 @@ public class Tester
 
 	  GameBoard.addFood(board);
 	  ASCIIDrawer.drawBoard(board);
-
    }
-
-
 }
