@@ -8,7 +8,6 @@ public class Tester
 	  board[3][3] = new Cell(CellType.food);
 
 	  GameBoard.addFood(board);
-	  GameBoard.addFood(board);
 	  ASCIIDrawer.drawBoard(board);
 
    }
